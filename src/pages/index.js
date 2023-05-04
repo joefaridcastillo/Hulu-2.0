@@ -1,21 +1,21 @@
 import Head from "next/head";
 import Header from "../../components/Header";
-
-
-
+import Nav from "../../components/Nav";
 
 export default function Home() {
   return (
-   <div>
-    <Head>
-      <title>Hulu 2.0</title>
-      <link rel="icon" href="/public/favicon.ico"/>
-    </Head>
-    <h1>Lets build Hulu</h1>
-    
-    {/*  HEADER  */}
-    <Header  />
+    <div>
+      <Head>
+        <title>Hulu 2.0</title>
+        <link rel="icon" href="/public/favicon.ico" />
+      </Head>
 
-   </div>
-  )
+      {/*  HEADER  */}
+
+      <Header />
+
+      {/*  NAVBAR  */}
+      <Nav />
+    </div>
+  );
 }
