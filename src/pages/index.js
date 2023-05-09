@@ -9,13 +9,9 @@ export default function Home() {
         <title>Hulu 2.0</title>
         <link rel="icon" href="/public/favicon.ico" />
       </Head>
-
-      {/*  HEADER  */}
-
       <Header />
-
-      {/*  NAVBAR  */}
       <Nav />
+      <Results />
     </div>
   );
 }
