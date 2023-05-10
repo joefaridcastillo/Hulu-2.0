@@ -3,7 +3,6 @@ import requests from "../utils/requests";
 import { useRouter } from "next/router";
 
 function Nav() {
-<<<<<<< HEAD
   const router = useRouter();
   return (
     <nav className="relative">
@@ -21,13 +20,11 @@ function Nav() {
       <div className="absolute top-0 right-0 bg-gradient-to-l from-[#06202A] h-10 w-1/12" />
     </nav>
   );
-=======
-  return <nav>
-    <div>
-        
-    </div>
-  </nav>;
->>>>>>> main
+  return (
+    <nav>
+      <div></div>
+    </nav>
+  );
 }
 
 export default Nav;
