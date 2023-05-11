@@ -4,6 +4,9 @@ module.exports = {
   content: ["./pages/**/*.{html,jsx,js}", "./components/**/*.{html,jsx,js}"],
   theme: {
     extend: {
+      screens: {
+        "3xl": "2000px",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
